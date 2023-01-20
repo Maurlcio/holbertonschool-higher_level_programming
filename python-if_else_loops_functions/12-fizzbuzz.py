@@ -11,3 +11,4 @@ def fizzbuzz():
             print(f"{i}", end='')
         else:
             print(f" {i}", end='')
+    print(" ", end='')
