@@ -14,7 +14,4 @@ if __name__ == "__main__":
             for i in range(1, arg + 1):
                 add += int(argv[i])
             print("{}".format(add))
-
     infsum(sys.argv)
-
-
