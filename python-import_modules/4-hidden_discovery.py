@@ -7,5 +7,5 @@ if __name__ == "__main__":
             if i[:2] == "__":
                 pass
             else:
-                print(x)
+                print(i)
     whomst()
