@@ -2,6 +2,8 @@
 def square_matrix_simple(matrix=[]):
     new_matrix = []
     for col in matrix:
-        for row in range(len(col)):
-            new_matrix.append(col[row] ** 2)
+        other_block = []
+        for row in col:
+            other_block.append(row ** 2)
+        new_matrix.append(other_block)
     return new_matrix
