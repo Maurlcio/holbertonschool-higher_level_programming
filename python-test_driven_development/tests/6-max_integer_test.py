@@ -16,9 +16,9 @@ class LetsMaxInt(unittest.TestCase):
         unorderedL = [1, 2, 69, 4]
         self.assertEqual(max_integer(unorderedL), 69)
 
-    def MaxPowerOne(self):
-        POneL = [69, 1, 2, 3]
-        self.assertEqual(max_integer(POneL), 69)
+    def testMaxAtBeginning(self):
+        maxAtBeginning = [4, 3, 2, 1]
+        self.assertEqual(max_integer(maxAtBeginning), 4)
 
     def testEmptyList(self):
         thisBitchEmpty = []
