@@ -9,8 +9,8 @@ class Rectangle:
 
     def __init__(self, width=0, height=0):
         type(self).number_of_instances += 1
-        self.height = height
-        self.width = width
+        self.width = height
+        self.height = width
 
     @property
     def height(self):
@@ -78,4 +78,4 @@ class Rectangle:
 
     @classmethod
     def square(cls, size=0):
-        return Rectangle(size, size)
+        return cls(size, size)
